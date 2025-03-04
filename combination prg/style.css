@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+
+body{
+  background-color: #080a0c;
+  color: azure;
+  height: 100vh;
+}
+.hero-section{
+  padding-right: 481px;
+  margin-left: 108px;
+
+}
+.container{
+  height: 100vh;
+  max-width: 1320px;
+  padding: 64px 0;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+}
+.grid{
+  display: grid;
+  align-items: center;
+  gap: 6.4em;
+
+}
+.gride-two-Colume{
+  grid-template-columns: repeat(2,1fr);
+
+}
+.hero-content h1{
+  text-align: left;
+  font-size: 54px;
+}
+.hero-content p{
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 2rem 0 2rem 0;
+  width: 81%;
+}
+ 
+img{
+  
+  width: 69%;
+  margin-left: 91%;
+  height: 238px;
+  border-radius: 23px;
+  filter: drop-shadow(1px 1px 5px #fff);
+}
+
+.hero-image{
+  margin-top: -239px;
+}
+.hero-content a{
+  color: #080a0c;
+}
+.hero-content a:link{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px 32px;
+  text-decoration: none;
+  border-radius: 23px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.hero-content a:visited{
+  color: #d88c1a;
+}
+.hero-content a:hover{
+  color: #2D336B;
+}
+.hero-content a:active{
+  color: #497D74;
+}
+/* Second page  */
+.container1{
+  background-color: white;
+  color: black;
+  height: 411px;
+  text-align: center;
+  border-radius: 20px;
+  /* padding-left: 41%; */
+}
+
+.gride-two-column{
+  padding-right: 388px;
+  font-size: 23px;
+  /* font-size: 32px; */
+  text-transform: capitalize;
+  padding-top: 62px;
+}
+
+.content-2{
+  margin: -192px;
+  font-size: 23px;
+  margin-left: 122px;
+}
+ol,ul,li{
+  list-style: none;
+}
+.p-class{
+  padding-top: 10px;
+}
+ul{
+  white-space: nowrap;
+}
+/* --------------------------------------- */
+/* 1]Descendant selectors */
+.container1 p{
+  font-weight: bold;
+  font-size: 12px;
+  color: #497D74;
+}
+
+/* 2]child Selectors */
+/* ul is parent and li is child */
+/* ul  li{
+  color: #780C28
+} */
+
+  .container2 ul li{
+  color: red;
+ } 
+  
+
+  /* .container2  ul >  li{
+    color: #AA60C8;
+   } */
+
+   .container2 >  ul >  li{
+    color: #155E95;
+   }
+   
+   /* Adjacent sibling selectors(+)  is fris and set */
+   .container2 ul p + li{
+    color:  #091057;
+   }
+
+   /* .4]General Sibling Selectors(~) --> */
+   .container2 ul p ~ li{
+    color:  #83B4FF;
+   }
+   /* 5]universal Selectors(*) */
+   .content-2  *
+   {
+      color: crimson;
+   }
+   .container2  *{
+    color: #d88c1a;
+   }

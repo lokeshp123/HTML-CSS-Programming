@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  background-color: black;
+  display: grid;
+  place-items: centre;
+ 
+}
+section{
+  padding: 135px;
+}
+img{
+  
+  /* border-radius: 12px solid red; */
+  width: 362px;
+  
+  
+  /* filter shadow here */
+  filter: drop-shadow(0 0 10px #fff);
+  /* filter: drop-shadow(10px 10px 0px #fff); */
+  /* filter: drop-shadow(-10px 10px 0px #fff); */
+  /* filter: drop-shadow(-10px 10px 0px red); */
+  /* h,v,b,c */
+} 
+
+.container{
+  /* box-shadow: 0 0 0 20px #fff; */
+  
+  margin-left: 257px;
+  width: 439px;
+  height: 444px;
+  padding-left: 37px;
+  padding-top: 39px;
+}
+
+
+
+
